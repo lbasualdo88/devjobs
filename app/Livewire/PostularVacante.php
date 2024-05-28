@@ -25,24 +25,12 @@ class PostularVacante extends Component
     public function postularme()
     {
         $datos = $this->validate();
-
-         // Validar si la fecha de cierre ya pasó a partir de la columna ultimo_dia
-        if($this->vacante->ultimo_dia < now()) {
-            session()->flash('error', 'La fecha de cierre de esta vacante ya pasó');
-            return redirect()->back();
-        }
-
-       /* if($this->vacante->candidatos()->where('user_id', auth()->user()->id)->count() > 0) {
-            session()->flash('error', 'Ya postulaste a esta vacante anteriormente');
-        } else { */
-            
+       
             //Almacenar el cv
-    
             $cv = $this->cv->store('public/cv');
             $datos['cv'] = str_replace('public/cv/', '', $cv);
     
             //Crear el candidato a la vacante
-    
             $this->vacante->candidatos()->create([
                 'user_id' => auth()->user()->id,
                 'cv' => $datos['cv']
@@ -56,9 +44,6 @@ class PostularVacante extends Component
     
             //Mostrar al usuario un mensaje de ok
             session()->flash('mensaje', 'Postulación exitosa, mucha suerte');
-            return redirect()->back();                           
-      //  }
-
     }
 
     public function render()
