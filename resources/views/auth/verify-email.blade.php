@@ -5,7 +5,7 @@
 
     @if (session('status') == 'verification-link-sent')
         <div class="mb-4 font-medium text-sm text-green-600">
-            {{ __('Hemos enviado un email de confirmación a la cuenta que colocaste en el registro') }}
+            {{ __('Hemos enviado un email de confirmación a la dirección que proporcionaste durante el registro. Si no lo recibiste, haz clic en reenviar.') }}
         </div>
     @endif
 
@@ -15,7 +15,7 @@
 
             <div>
                 <x-primary-button>
-                    {{ __('Enviar email de confirmación') }}
+                    {{ __('Reenviar email de confirmación') }}
                 </x-primary-button>
             </div>
         </form>
