@@ -14,7 +14,7 @@ Udemy<br/>
 Laravel<br/>
 <br/>
 <strong>Categoría del Proyecto:</strong><br/>
-Backend<br/>
+Fullstack<br/>
 <br/>
 <strong>Tecnologías Usadas en el Proyecto:</strong><br/>
 <br/>
