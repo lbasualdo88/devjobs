@@ -1,66 +1,42 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<strong>Título del Proyecto:</strong><br/>
+DevJobs<br/>
+<br/>
+<strong>Tipo de Proyecto:</strong><br/>
+Académico<br/>
+<br/>
+<strong>Autor del Proyecto:</strong><br/>
+Profesor: Juan Pablo De la Torre Valdez<br/>
+<br/>
+<strong>Institución:</strong><br/>
+Udemy<br/>
+<br/>
+<strong>Curso de donde se aprendió:</strong><br/>
+Laravel<br/>
+<br/>
+<strong>Categoría del Proyecto:</strong><br/>
+Backend<br/>
+<br/>
+<strong>Tecnologías Usadas en el Proyecto:</strong><br/>
+<br/>
+Laravel<br/>
+Tailwind CSS<br/>
+MySQL<br/>
+HTML<br/>
+Composer<br/>
+<br/>
+<strong>Funcionalidad del Proyecto:</strong><br/>
+El proyecto "DevJobs" es una plataforma de búsqueda de empleo que permite a los usuarios explorar y postularse a ofertas de trabajo. Las funcionalidades principales incluyen:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Registro e inicio de sesión de usuarios.
+Publicación y gestión de ofertas de empleo.
+Búsqueda y filtrado de trabajos por categoría y ubicación.
+Aplicación a ofertas de trabajo y seguimiento del estado de las aplicaciones.
+Panel de administración para gestionar ofertas y usuarios.<br/>
+<br/>
+<strong>Lo Aprendido en la Realización del Proyecto:</strong><br/>
+Durante el desarrollo de "DevJobs", se adquirieron y fortalecieron las siguientes habilidades:
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Desarrollo Backend: Implementación de sistemas de autenticación y gestión de usuarios con Laravel.
+Diseño de Interfaces: Creación de interfaces atractivas y responsivas utilizando Tailwind CSS.
+Gestión de Bases de Datos: Diseño y administración de bases de datos con MySQL.
+Gestión de Dependencias: Uso de Composer para la gestión de dependencias y paquetes en Laravel.<br/>
